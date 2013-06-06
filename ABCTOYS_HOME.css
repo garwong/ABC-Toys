@@ -2,6 +2,11 @@
 	float:left;
 	width:233px;
 	height:300px;
-	background-color:#FFCC00;
 	margin: 0 50px;
+}
+
+h2{
+	font-family: San-serif;
+	font-size: 12px;
+	
 }
