@@ -3,6 +3,51 @@ html, body, h1, form, fieldset, legend, ol, li {
 	padding: 0;
 }
 
-form#payment textarea {
-	background: #5C303E;
+
+form#payment legend {
+	color: #1B1EE0;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	text-shadow: 0 1px 1px #10128F;
+	border-style:dashed
+	border-width: 2px;
 }
+
+/* 
+form#payment ol li {
+	border-style: dashed;
+	border-width: 2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	line-height: 30px;
+	list-style: none;
+	padding: 5px 10px;
+	margin-bottom: 2px;
+}
+ */
+
+
+form#payment button {
+	background: #384313;
+	border: none;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+	color: #ffffff;
+	display: block;
+	font: 18px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+	text-shadow: 0 1px 1px #000000;
+	text-transform: uppercase;
+}
+form#payment button:hover {
+	background: #1e2506;
+	cursor: pointer;
+}
+ 
+ 
