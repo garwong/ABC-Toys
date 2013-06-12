@@ -1,16 +1,31 @@
 #HeaderBox {
 	float:left;
-	width:510px;
-	margin:0 20px;
+	width:500px;
+	margin:0 0.2em;
 	height: 170px;
 }
 
-#search {
-	width:20em;
+#cart{
+	float:left
+	margin: 20px 0px;
 	}
 	
-#searchBar{
+header {
+	width:1100px;
+	margin: 0 auto;
+}
+
+#HeaderBox #search {
+	width:20em;
+	height: 5em;
+	margin: 5px 90px;
+	text-align: right;
+	}
+
+#search #searchBar{
+	float:right;
 	width: 20em;
+	margin: 0px 0px;
 	background-color:yellow;
 	}
 
@@ -22,19 +37,6 @@
 	background-color:#FFA473;
 	}	
 	
-form	{ 
-	padding:15px;
-	width: 20em;
-	text-align: right;
-	}
-	
-			
-	
-header {
-	width:1100px;
-	margin: 0 auto;
-}
-
 h1  {
 	text-align: right;
 }
