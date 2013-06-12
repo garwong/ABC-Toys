@@ -1,11 +1,35 @@
 #HeaderBox {
 	float:left;
-	width:493px;
+	width:510px;
 	margin:0 20px;
 	height: 170px;
 }
+	
+header {
+	width:1100px;
+	margin: 0 auto;
+}
 
-h2	{ 
+#search {
+	width:20em;
+	}
+	
+#searchBar{
+	width: 20em;
+	background-color:yellow;
+	}
+
+#submit {
+	background-color:#C2FFED;
+	}
+
+#submit:hover{
+	background-color:#FFA473;
+	}	
+	
+form	{ 
+	padding:15px;
+	width: 20em;
 	text-align: right;
 	}
 	
@@ -13,7 +37,7 @@ h2	{
 	float:left;
 	width: 190px;
 	height: 50px;
-	margin: 0 45px auto;
+	margin: 0 50px auto;
 }
 
 
