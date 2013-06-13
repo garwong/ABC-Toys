@@ -42,8 +42,7 @@ header {
 
 html, body, h1, form, fieldset, legend, ol, li {
 	margin: 40;
-	padding: 0;
-	font-family: chalkduster;
+	padding: 0;	
 }
 
 <<<<<<< HEAD
@@ -72,6 +71,7 @@ label {
 	
 form#payment legend {
 	color: #ED1C24;
+	font-family: chalkduster;
 	font-size: 16px;
 	font-weight: bold;
 	padding-bottom: 20px;
@@ -85,14 +85,43 @@ form#payment fieldset{
 	border-style:dashed;
 }
 
-/*form#payment fieldset:last-of-type{
-	margin-bottom: 0;
+form#payment textarea {
+	background: #ffffff;
+	border: dotted;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	font: italic 13px;
+	outline: none;
+	padding: 5px;
+	width: 200px;
+}
+
+
+/*form#payment input    {
+width:375px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }*/
+
+form#payment input[type=radio] {
+	margin-right: 5px;
+}
+
+form#payment input {
+	float: right;
+	width: 200px;
+
+}
 
 form#payment button {
 	font: chalkduster;
 	border: none;
-
 }
 
 form#payment button:hover {
