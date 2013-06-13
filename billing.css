@@ -45,16 +45,16 @@ html, body, h1, form, fieldset, legend, ol, li {
 	padding: 0;	
 }
 
-<<<<<<< HEAD
+
 h1 {
 	margin: 0px 10px;
-	}
-=======
+}
+
 form#payment {
 	padding: 0px;
 	width: 600px;
 }
->>>>>>> 85a105f07e45b73d8fdee56c5a7fcac6aaa7f6ed
+
 
 form	{
 	width: 800px;
@@ -95,6 +95,11 @@ form#payment textarea {
 	font: italic 13px;
 	outline: none;
 	padding: 5px;
+	width: 200px;
+}
+
+form#payment select{
+	float: right;
 	width: 200px;
 }
 

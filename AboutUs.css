@@ -44,9 +44,9 @@ body{
 	float:left;
 	width: 700px;
 	margin: 0 50px;
-	background:
-      url("images/backdrop.jpg") repeat-x fixed -130% 0,
+	/*background: url("images/backdrop.jpeg");*/
 }
+
 
 #BodyText{
 	border: line;
