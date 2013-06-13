@@ -3,6 +3,7 @@
 	<head>
 		<title>ABC-TOYS HOMEPAGE</title>
 		<link rel="stylesheet" tyle="text/css" href="Products.css"/>
+		<link rel="stylesheet" tyle="text/css" href="DropDownMenu.css"/>
 	</head>
 		
 	<header>
@@ -11,7 +12,7 @@
 		</div>
 		<div id="HeaderBox">	<br>
   				<div id="search">
-  				<a href="Shopping.html"><img id="cart" src="iconsButtons/cart.png" width=30em /></a>
+  				<a href="Shopping2.html"><img id="cart" src="iconsButtons/cart.png" width=30em /></a>
   				<input id="searchBar" type="text" placeholder="Search with keyboards here..." /><br>
   				<input id="submit" type="button" value="Search" onclick="location.href='Products.html';" /></div>
 			
@@ -21,11 +22,36 @@
 		
 <body>
 	<!-- <div class="buttons"> -->
-	<div id="buttonBox"><img src="iconsButtons/Product-button.png" /></div>
-	<div id="buttonBox"><img src="iconsButtons/clearance-button.png" /></div>
-	<div id="buttonBox"><img src="iconsButtons/OrderStatusButton.png" /></div>
-	<div id="buttonBox"><img src="iconsButtons/About-Us.png" /></div>
-	
+	<nav>
+	<ul>
+		<li><a href="ABCTOYS_HOME.html">Home</a></li>
+		<li><a href="#">Shop by Age</a>
+			<ul>
+				<li><a href="Products2.html">Age 4 ~ 7</a></li>
+				<li><a href="Products3.html">Age 7 ~ 11</a></li>
+				<li><a href="Products4.html">Age 11 ~ 13</a></li>
+				<li><a href="Products5.html">Age 13 & +</a></li>
+				</li>
+			</ul>
+		</li>
+		<li><a href="#">Shop by Price</a>
+			<ul>
+				<li><a href="Products6.html">$0 - $10</a></li>
+				<li><a href="Products7.html">$10 - $20</a></li>
+				<li><a href="Products8.html">$20 - $30</a></li>
+				<li><a href="Products9.html">$30 & +</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Best Sellers</a>
+			<ul>
+				<li><a href="Products10.html">All Year Round</a></li>
+				<li><a href="Products11.html">By Month</a></li>
+				<li><a href="Products12.html">By weeks</a></li>
+			</ul>
+		</li>
+		<li><a href="About.html">About Us</a><li>
+	</ul>
+</nav>
 	<!-- </div> -->
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -61,9 +87,9 @@
 	
 	<div class="itemBox">
 	<div class="items"><img src="images/Robot4.jpg" width=200px height=180px /><br>
-	<p id="description">Little Pony (Purple)<br> Suggested Age: 10+ <br>$ 34.99 <br> <br><input id="addCart" type="button" value="Add to Cart" onclick="location.href='shopping.html';" /></p></div>
+	<p id="description">Little Pony (Purple)<br> Suggested Age: 10+ <br>$ 34.99 <br><input id="addCart" type="button" value="Add to Cart" onclick="location.href='shopping.html';" /></p></div>
 	<div class="items"><img src="images/Robot1.jpg" width=200px height=180px /><br>
-	<p id="description">Little Pony (Purple)<br> Suggested Age: 13+ <br>$ 59.99<br><br><input id="addCart" type="button" value="Add to Cart" onclick="location.href='shopping.html';" /></p></div>
+	<p id="description">Little Pony (Purple)<br> Suggested Age: 13+ <br>$ 59.99<br><input id="addCart" type="button" value="Add to Cart" onclick="location.href='shopping.html';" /></p></div>
 	<!--<div class="items"><img src="images/Robot2.jpg" width=200px height=180px /><br>
 	<p id="description">Pinky Star (Pink)<br> Suggested Age: 8+<br> $ 39.99<br> <br><input id="addCart" type="button" value="Add to Cart" onclick="location.href='shopping.html';" /></p></div>
 	<div class="items"><img src="images/Robot3.jpg" width=200px height=180px /><br>

@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>ABC-TOYS HOMEPAGE</title>
-		<link rel="stylesheet" tyle="text/css" href="ABCTOYS_HOME.css"/>
+		<link rel="stylesheet" tyle="text/css" href="shopping.css"/>
 		<link rel="stylesheet" tyle="text/css" href="DropDownMenu.css"/>
 	</head>
 		
@@ -12,19 +12,19 @@
 		</div>
 		<div id="HeaderBox">	<br>
   				<div id="search">
-  				<a href="Shopping2.html"><img id="cart" src="iconsButtons/cart.png" width=30em /></a>
+  				<a href="Shopping.html"><img id="cart" src="iconsButtons/cart.png" width=30em /></a>
   				<input id="searchBar" type="text" placeholder="Search with keyboards here..." /><br>
-  				<input id="submit" type="button" value="Search" target="result.html" onclick="location.href='Products.html';" /></div>
+  				<input id="submit" type="button" value="Search" onclick="location.href='Products.html';" /></div>
 			
 		</div>
 			
 	</header>
-	<!-- use everything above for header as template-->
-	
-		<!-- <div class="buttonsBox"> -->
-		<nav>
+		
+<body>
+	<!-- <div class="buttons"> -->
+	<nav>
 	<ul>
-		<li><a href="#">Home</a></li>
+		<li><a href="ABCTOYS_HOME.html">Home</a></li>
 		<li><a href="#">Shop by Age</a>
 			<ul>
 				<li><a href="Products2.html">Age 4 ~ 7</a></li>
@@ -52,37 +52,30 @@
 		<li><a href="About.html">About Us</a><li>
 	</ul>
 </nav>
-		<!-- </div> -->
+	<!-- </div> -->
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+		
+	<div class="menuBox">
+	<p class="cart2">Your Cart </p><br>
+	<br> Your shopping cart is Empty...<br>
+	<br><br><br>
+	<input id="Home" type="button" value="Continue Shopping --->" onclick="location.href='ABCTOYS_HOME.html';" />
 	
-	<body>
-		<div id="banner"><img src="images/banner.png" width="1000" /></div>	
-				
-	    <div class="box"><img src="http://www.sfu.ca/~gwa13/iat381/Project2/Images/pony.png" width="233" height="200" alt="pony" />
-				<h1>Little Pony</h1>
-				<h2>Pink cuddly pony</h2>
-				<h2>Our recommended ages 3-7.</h2>
-				</div>
-
-				<div class="box"><img src="http://www.sfu.ca/~gwa13/iat381/Project2/Images/star.png" width="233" height="200" alt="star" />
-				<h1>Star Power-Up</h1>
-				<h2>Pink plush star</h2>
-				<h2>Our recommended ages 2-5</h2>
-				</div>
-
-				<div class="box">
-				<img src="http://www.sfu.ca/~gwa13/iat381/Project2/Images/puppy.png" width="233" height="200" alt="puppy" />
-				<h1>Puppy</h1>
-				<h2>Black and white</h2>
-				<h2>Our recommended ages 2-5</h2>
-				</div>
-			</div>
-			
-			
-			
-		</div>
-				
-	</body>
-
-
+	
+	</div><!-- closing menuBox div -->
+	
+	<div class="itemBox">
+	<br><p class="cart"> Your Cart Total :</p><br><br>
+	<p class="total">Sub Total: $ 0</p>
+	</div> <!-- closing itemBox div -->
+	
+	<div class="footer">
+	<div class="foot"><p id="copy">Copyrights Reserved&copy;</p></div>
+	<div class="foot"><p id="copy">ABC Policy & Terms of Use</p></div>
+	<div class="foot"><p id="copy">Contact Us</p></div>
+	</div> <!-- closing footer -->
+	
+</body>
 
 </html>

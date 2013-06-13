@@ -1,0 +1,59 @@
+nav {
+	text-align: center;
+	font-family: Chalkduster;
+	src: url('Font/Chalkduster.tff');
+	margin: 0px 48px;
+	font-size: 18px;
+}
+
+nav ul ul {
+	display: none;
+}
+
+nav ul li:hover > ul {
+		display: block;
+		width: 200px;
+}
+
+nav ul {
+	float:left;
+	list-style: none;
+	position: relative;
+	background-color: #C8F2F7;
+}
+
+nav ul li {
+		float: left;
+	}
+	
+nav ul li:hover {
+	background: #1B4CE0;
+		}
+		
+nav ul li:hover a {			
+	color: #fff;
+}
+		
+nav ul li a {
+		display: block; 
+		padding: 8px 10px;
+		margin: 0px 68px 0px 0px;
+		color: #1B4CE0; 
+		text-decoration: none;
+		}
+			
+		
+nav ul ul {
+		background: #1B4CE0; 
+		border-radius: 0px; 
+		padding: 0;
+		position: absolute; 
+		top: 100%;
+	}
+
+
+nav ul ul li a:hover {
+	background: yellow;
+	color: red;
+}
+			
