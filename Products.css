@@ -67,7 +67,7 @@ h2	{
 	src: url('Font/Chalkduster.tff');
 	font-size: 20px;
 	width: 220px;
-	height: 800px;
+	height: 940px;
 	background-color: #B8E7FF;
 	margin: 0px 25px;
 	float: left;
@@ -108,7 +108,7 @@ p	{
 .itemBox {
 	background-color: #E3FCFC;
 	width: 810px;
-	height: 900px;
+	height: 940px;
 	margin: 0px 258px;
 	}
 	
@@ -138,12 +138,17 @@ ul
     list-style-type: none;
 }
 
-#P2 {
+#P2, #P3, #P4, #P5 {
 	color: #61E04A;
 	text-decoration:none;
 	}
 
-a:hover {
-	color:yellow;
+#P6, #P7, #P8, #P9  {
+	color: #FAA850;
+	text-decoration:none;
 	}
 	
+#P10, #P11, #P12 {
+	color: #A850FA;
+	text-decoration:none;
+	}
