@@ -18,7 +18,7 @@ header {
 #HeaderBox #search {
 	width:20em;
 	height: 5em;
-	margin: 5px 135px;
+	margin: 5px 90px;
 	text-align: right;
 	}
 
@@ -109,7 +109,7 @@ p	{
 	background-color: #E3FCFC;
 	width: 810px;
 	height: 940px;
-	margin: 12px 258px;
+	margin: 0px 258px;
 	}
 	
 .items {
@@ -129,7 +129,7 @@ p	{
 	font-family: Chalkduster;
 	src: url('Font/Chalkduster.tff');
 	text-align: left;
-	font-size: 9px;
+	font-size: 10px;
 	}
 	
 ul

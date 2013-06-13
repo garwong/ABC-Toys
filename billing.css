@@ -47,6 +47,7 @@ html, body, h1, form, fieldset, legend, ol, li {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 h1 {
 	margin: 0px 10px;
 	}
@@ -56,20 +57,9 @@ form#payment {
 	width: 600px;
 }
 >>>>>>> 85a105f07e45b73d8fdee56c5a7fcac6aaa7f6ed
+=======
+>>>>>>> parent of c215adc... Products all done, dropdown menu done
 
-form	{
-	width: 800px;
-	margin: 10px;
-	}
-	
-ol {
-	list-style-type:none;
-	}
-	
-label {
-	margin: 10px;
-	}
-	
 form#payment legend {
 	color: #ED1C24;
 	font-size: 16px;
@@ -78,7 +68,6 @@ form#payment legend {
 	text-shadow: 0 1px 1px #10128F;
 	border-style:dotted;
 	border-width: 2px;
-	margin: 3px;
 }
 
 form#payment fieldset{
