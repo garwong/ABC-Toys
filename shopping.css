@@ -7,7 +7,7 @@
 
 #cart{
 	float:left
-	margin: 20px 0px;
+	margin: 0px 0px 20px 60px;
 	}
 	
 header {
@@ -103,7 +103,7 @@ h2	{
 	
 .foot {
 	float:left;
-	margin: 0px 139px;
+	margin: 0px 159px 0px 120px;
 	}
 	
 #copy {
@@ -122,14 +122,19 @@ h2	{
 	margin: 20px;
 	}
 
+#Home:hover, #Home2:hover {
+	background-color: red;
+	}	
+
 #Home2 {
 	font-family: Chalkduster;
 	src: url('Font/Chalkduster.tff');
-	background-color: #E64E4E;
+	background-color: #3636F5;
 	color: yellow;
 	text-align: center;
 	margin: 20px;
 	}
+		
 		
 .menuBox .cartP {
 	float:left;

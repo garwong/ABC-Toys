@@ -1,3 +1,7 @@
+body {
+	background-color: black;
+	}
+
 #HeaderBox {
 	float:left;
 	width:500px;
@@ -6,8 +10,8 @@
 }
 
 #cart{
-	float:left
-	margin: 20px 0px;
+	float:left;
+	margin: 0px 0px 20px 60px;
 	}
 	
 header {
@@ -35,6 +39,14 @@ header {
 
 #submit:hover{
 	background-color:#FFA473;
+	}
+
+h1 {
+	text-align: right;
+	}
+
+h2  {
+	text-align: right;
 	}	
 	
 	/*take everything above here*/ 
@@ -46,6 +58,17 @@ header {
 	margin: 0 50px auto;
 }
 
+.foot {
+	float:left;
+	margin: 0px 159px 0px 120px;
+	}
+	
+#copy {
+	font-family: Chalkduster;
+	src: url('Font/Chalkduster.tff');
+	text-align: left;
+	font-size: 10px;
+	}
 
 #banner{
 	margin: 0 50px
@@ -59,13 +82,19 @@ header {
 	margin: 0 65px;
 }
 
-h2{
-	font-family: San-serif;
-	font-size: 12px;
-	
+h2	{
+	font-family: Chalkduster;
+	src: url('Font/Chalkduster.tff');
+	font-size: 10px;
+	text-align: center;
+	color: red;
 }
 
 
 h1  {
-	text-align: right;
+	font-family: Chalkduster;
+	src: url('Font/Chalkduster.tff');
+	text-align: center;
+	font-size: 14px;
+	color: red;
 }
