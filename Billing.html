@@ -7,7 +7,7 @@
 	</head>
 	<header>
 		<div id="HeaderBox">
-			<h1><a href="ABCTOYS_HOME.html"><img src="iconsButtons/EvilRobotsLogo.png"/></a></h1>
+			<h1><a href="ABCTOYS_HOME.html"><img src="iconsButtons/angryrobots.png"/></a></h1>
 		</div>
 		<div id="HeaderBox">	<br>
   				<div id="search">
@@ -27,11 +27,11 @@
 		<fieldset>
 		<legend>Payment Type</legend>
 			<ol>
-				<li>	
+				<li>
 					<label for="Payment Type">Card Type:</label>
-					<input type="radio" name="visa" value="visa"><img src="images/visa.png" width="50" height="30">
-					<input type="radio" name="mastercard" value="mastercard"><img src="images/mastercard.png" width="50" height="30">
-					<input type="radio" name="amex" value="amex"><img src="images/amex.png" width="50" height="30">
+					<input type="radio" name="card" value="visa" />Visa<br /><img src="images/visa.png" width="50" height="30">
+                    <input type="radio" name="card" value="mastercars" />Mastercard<br /><img src="images/mastercard.png" width="50" height="30">
+                    <input type="radio" name="card" value="amex" />Amex<br /><img src="images/amex.png" width="50" height="30">		
 				</li>
 				<li>
 					<label for="name">Name:</label>
@@ -58,22 +58,19 @@
 						<label for="email">Email:</label>
 						<input id="email" email="email" type"email" placeholder="example@domain.com" required/>
 					</li>
-					
-					
 					<li>
 						<label for="telephone">Telephone:</label>
 						<input id="telephone" telephone="telephone" type"number" placeholder="(xxx) xxx-xxxx" required/>
 					</li>
 					<li>
 						<label for=address>Address:</label>
-						<textarea id="address" name="address" rows="3" required></textarea><br><br>
+						<textarea id="address" name="address" rows="3" required></textarea>
 					</li>
-					
 					<li>
 						<label for="province">Province:</label>
 						<select id="province">
+						<option value="BC">British Columbia</option>	
 						<option value="Alberta">Alberta</option>
-						<option value="BC">British Columbia</option>
 						<option value="Manitoba">Manitoba</option>
 						<option value="New Brunswick">New Brunswick</option>
 						<option value="Newfoundland">Newfoundland</option>
@@ -85,9 +82,8 @@
 						<option value="Northwest Territories">Northwest Territories</option>
 						<option value="Nunavut">Nunavut</option>
 						<option value="Yukon">Yukon</option>
-						</select><br><br>
+						</select>
 					</li>
-				
 					<li>
 						<label for=postal>Postal Code:</label>
 						<input id="postal" postal="postal" type"text"  required/><br><br>
@@ -96,13 +92,13 @@
 					<li>
 						<label for=country>Country: </label>	
 						<select name="country"><option value="Canada">Canada</option><option value="United States">United States</option>
-						</select><br><br>
+						</select>
 					</li>
 				</ol>	
 		</fieldset>	
 		
 		<fieldset>
-			<button type=purchase>Purchase</button>
+			<button type="purchase">Purchase</button>
 		</fieldset>
 	</form>	
 </body>
