@@ -6,7 +6,6 @@
 }
 
 #cart{
-	float:left
 	margin: 20px 0px;
 	}
 	
@@ -42,7 +41,8 @@ header {
 
 html, body, h1, form, fieldset, legend, ol, li {
 	margin: 40;
-	padding: 0;	
+	padding: 0;
+	list-style-type: none;	
 }
 
 h1 {
@@ -59,7 +59,6 @@ form#payment legend {
 	font-family: chalkduster;
 	font-size: 16px;
 	font-weight: bold;
-	padding-bottom: 20px;
 	text-shadow: 0 1px 1px #10128F;
 	border-style:dotted;
 	border-width: 2px;
@@ -70,37 +69,28 @@ form#payment fieldset{
 }
 
 form#payment textarea {
+	float: right;
 	background: #ffffff;
-	border: dotted;
+	border: solid;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-khtml-border-radius: 3px;
 	border-radius: 3px;
 	font: italic 13px;
 	outline: none;
-	padding: 5px;
+
 	width: 200px;
 }
 
 form#payment select{
 	float: right;
 	width: 200px;
+
 }
 
+/*form#payment input[type=radio] {
 
-/*form#payment input    {
-width:375px;
-display:block;
-border: 1px solid #999;
-height: 25px;
--webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
--moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }*/
-
-form#payment input[type=radio] {
-	margin-right: 5px;
-}
 
 form#payment input {
 	float: right;
