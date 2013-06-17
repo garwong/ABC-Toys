@@ -29,9 +29,9 @@
 			<ol>
 				<li>
 					<label for="Payment Type">Card Type:</label>
-					<input type="radio" name="card" value="visa" />Visa<br /><img src="images/visa.png" width="50" height="30">
-                    <input type="radio" name="card" value="mastercars" />Mastercard<br /><img src="images/mastercard.png" width="50" height="30">
-                    <input type="radio" name="card" value="amex" />Amex<br /><img src="images/amex.png" width="50" height="30">		
+					<input type="radio" name="card" value="visa" />Visa <img src="images/visa.png" width="50" height="30">
+                    <input type="radio" name="card" value="mastercars" />Mastercard <img src="images/mastercard.png" width="50" height="30">
+                    <input type="radio" name="card" value="amex" />Amex <img src="images/amex.png" width="50" height="30">	
 				</li>
 				<li>
 					<label for="name">Name:</label>
@@ -60,7 +60,8 @@
 					</li>
 					<li>
 						<label for="telephone">Telephone:</label>
-						<input id="telephone" telephone="telephone" type"number" placeholder="(xxx) xxx-xxxx" required/>
+						<!-- <input id="telephone" telephone="telephone" type"number" placeholder="(xxx) xxx-xxxx" required/> -->
+						<input type="tel" id="orderTelephone" pattern="\(\d\d\d\) \d\d\d\-\d\d\d\d" title="(xxx) xxx-xxxx" />
 					</li>
 					<li>
 						<label for=address>Address:</label>
