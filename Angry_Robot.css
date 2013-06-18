@@ -23,7 +23,7 @@
 h1 {
 
 	text-align: center;
-	margin: 1em 3.2em;
+	margin: 0.5em 3.2em;
 }
 
 a#SCart:hover {
@@ -36,7 +36,7 @@ a#SCart:hover {
 #SCart {
 	text-decoration: none;
 	text-align: left;
-	margin: 0 6em;
+	margin: 0 6em 0.2em;
 	font-size: 8px;
 	font-family: 'DestroyRegular';
 	color:red;
@@ -61,7 +61,7 @@ body {
 #HeaderBox #search {
 	width:20em;
 	height: 20em;
-	margin: 1em 40em;
+	margin: -2.5em 40em;
 	text-align: right;
 	}
 
@@ -97,8 +97,12 @@ body {
 
 .foot {
 	float:left;
-	height: 1em;
-	width: 70em;
+	/*background-position: center 10em;*/
+	/*background-size: 60em;*/
+	background-color: green;
+	height: 2em;
+	width: 60em;
+	margin-left: 5.5em;
 }
 
 hr {
