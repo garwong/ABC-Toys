@@ -107,7 +107,10 @@ body {
 	background-color: green;
 	height: 2em;
 	width: 60em;
-	margin: 0em 7em;
+	margin: -3.1em 6.2em;
+	border: 1px solid green;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
 }
 
 .foot img {
@@ -129,6 +132,7 @@ hr {
 
 #foot2 {
 	margin: 1.1em 88em;
+	width: 10em;
 }	
 
 #banner1 {

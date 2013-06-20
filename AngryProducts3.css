@@ -94,22 +94,41 @@ body {
 	margin: 0 50px auto;
 }
 
+
 .foot {
 	float:left;
-	height: 1em;
-	width: 70em;
+	position: absolute;
+	/*background-position: center 10em;*/
+	/*background-size: 60em;*/
+	background-color: green;
+	height: 2em;
+	width: 55em;
+	margin: 62em 8.2em;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+.foot img {
+	height: 4em;
+}
+
+hr {
+	width:60em;
 }
 	
 #copy {
 	float:left;
 	font-family: 'DestroyRegular';
-	text-align: right;
 	font-size: 8px;
 	width: 23em;
-	margin: 0 10em 0 11em;
+	margin: 0 -1em 0 5em;
 	color:white;
-	
 	}
+
+#foot2 {
+	margin: 1.1em 68em;
+	width: 10em;
+}	
 
 /*
 #banner1 {
