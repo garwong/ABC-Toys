@@ -35,7 +35,11 @@ a#SCart:hover {
 #SCart {
 	text-decoration: none;
 	text-align: left;
+<<<<<<< HEAD
 	margin: 0 6em 0 0;
+=======
+	margin: 0 6em 0.2em;
+>>>>>>> cdcb403219aa5689209fe7b52f7f208fd1a6c36d
 	font-size: 8px;
 	font-family: 'DestroyRegular';
 	color:red;
@@ -96,8 +100,12 @@ body {
 
 .foot {
 	float:left;
-	height: 1em;
-	width: 70em;
+	/*background-position: center 10em;*/
+	/*background-size: 60em;*/
+	background-color: green;
+	height: 2em;
+	width: 60em;
+	margin-left: 5.5em;
 }
 
 hr {
