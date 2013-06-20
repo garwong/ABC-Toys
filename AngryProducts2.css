@@ -51,7 +51,7 @@ header {
 body {
 	
 	background-color: black;
-	background-image:url('images/banner1.jpg');
+	/*background-image:url('images/banner1.jpg'); */
 	background-repeat: no-repeat;
 	background-position: center 10em;
 	background-size: 60em;
@@ -94,54 +94,86 @@ body {
 	margin: 0 50px auto;
 }
 
-/*
 .foot {
 	float:left;
 	height: 1em;
 	width: 70em;
-} */
-.foot {
-	float:left;
-	/*background-position: center 10em;*/
-	/*background-size: 60em;*/
-	background-color: green;
-	height: 2em;
-	width: 60em;
-	margin: 0em 7em;
-}
-
-.foot img {
-	height: 4em;
-}
-
-hr {
-	width:60em;
 }
 	
 #copy {
 	float:left;
 	font-family: 'DestroyRegular';
+	text-align: right;
 	font-size: 8px;
 	width: 23em;
-	margin: 0 -15em 0 5em;
+	margin: 0 10em 0 11em;
 	color:white;
+	
 	}
 
-#foot2 {
-	margin: 1.1em 88em;
-}	
-
+/*
 #banner1 {
 	width:50em;
-	margin:0 10em;
+	margin:5em 8em;
+} */
+
+#newArrival {
+	width: 55em;
+	height: 13em;
+	margin: 6em 8em;
 }
 
+p#subT {
+	color:white;
+	font-family: 'DestroyRegular';
+	margin: -5em 0 0 30em;
+	font-size: 14px;
+}
 
+hr {
+	width:25em;
+	margin: -0.8em 0 0 38em;
+}
 
+img#robot {
+	margin: 2em 26.3em;
+	height:9em;
+	width:10.3em;
+}
+
+p#robotDescription {
+	color:white;
+	font-family: 'DestroyRegular';
+	margin: -13em 0 0 60em;
+	font-size: 11px;
+}
+
+#AddtoCart {
+	font-family: 'DestroyRegular';
+	background-color: red;
+	font-size: 8px;
+	margin:0 0 0em 115em;
+	}
+
+#AddtoCart:hover{
+	background-color:#06CC41;
+	transition-property: background-color, color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+	}
+
+#price {
+	color:#06CC41;
+	font-family: 'DestroyRegular';
+	margin: 1em 0em 0 58em;
+	font-size: 12px;
+}
+
+/*  DROPDOWN MENU BELOW  */
 nav {
 	text-align: left;
 	font-family: 'DestroyRegular';
-	margin: 15em 5em;
+	margin: -20em 5em;
 	font-size: 18px;
 	width: 15em;
 	height: 15em;
@@ -164,7 +196,6 @@ nav ul {
 
 }
 
-/*  DROPDOWN MENU BELOW  */
 	
 nav ul li:hover {
 	background: black opacity:0;
@@ -177,9 +208,9 @@ nav ul li:hover a {
 		
 nav ul li a {
 		display: block; 
-		padding: 8px 10px;
-		margin: 0px 68px 0px 0px;
-		color: black; 
+		padding: 0.3em 0.5em;
+		margin: 0em 0em 0 0;
+		color: white; 
 		text-decoration: none;
 		transition-property: background-color, color;
 		transition-duration: 0.5s;
@@ -189,10 +220,11 @@ nav ul li a {
 			
 nav ul ul {
 		background: black opacity:0; 
-		border-radius: 0px; 
-		padding: 0;
-		position: absolute; 
-		margin: -2.3em 11.5em;
+		border-radius: 0; 
+		padding: 2.5em 2em;
+		position: relative; 
+		margin: -1.8em 1em;
+		font-size: 14px;
 	}
 
 nav ul ul li a:hover {
@@ -204,35 +236,4 @@ nav ul ul li a:hover {
 }
 
 
-/* SEARCH --------------------------------------------------------*/
 
-.top-search{
-	position: absolute;
-	top:47px;
-	right: 30px;
-}
-
-#searchform #s{
-	color: #7e7e7e;
-	font-size: 10px;
-	width: 180px;
-	height: 28px;
-	padding: 0px 35px 0px 10px;
-	border: 0;
-	background: url(../image/search.png);	
-}
-
-#searchform #searchsubmit{
-	position: absolute; 
-	top: 0px;
-	right: 10px;
-	width: 30px;
-	height: 25px;
-	border: 0px;
-	background: transparent;
-}
-
-#body{
-	background-color: black;
-
-}
