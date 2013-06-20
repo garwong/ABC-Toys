@@ -35,11 +35,7 @@ a#SCart:hover {
 #SCart {
 	text-decoration: none;
 	text-align: left;
-<<<<<<< HEAD
 	margin: 0 6em 0 0;
-=======
-	margin: 0 6em 0.2em;
->>>>>>> cdcb403219aa5689209fe7b52f7f208fd1a6c36d
 	font-size: 8px;
 	font-family: 'DestroyRegular';
 	color:red;
@@ -98,6 +94,12 @@ body {
 	margin: 0 50px auto;
 }
 
+/*
+.foot {
+	float:left;
+	height: 1em;
+	width: 70em;
+} */
 .foot {
 	float:left;
 	/*background-position: center 10em;*/
@@ -105,7 +107,11 @@ body {
 	background-color: green;
 	height: 2em;
 	width: 60em;
-	margin-left: 5.5em;
+	margin: 0em 7em;
+}
+
+.foot img {
+	height: 4em;
 }
 
 hr {
@@ -115,13 +121,15 @@ hr {
 #copy {
 	float:left;
 	font-family: 'DestroyRegular';
-	text-align: right;
 	font-size: 8px;
 	width: 23em;
-	margin: 0 10em 0 11em;
+	margin: 0 -15em 0 5em;
 	color:white;
-	
 	}
+
+#foot2 {
+	margin: 1.1em 88em;
+}	
 
 #banner1 {
 	width:50em;
@@ -184,7 +192,7 @@ nav ul ul {
 		border-radius: 0px; 
 		padding: 0;
 		position: absolute; 
-		margin: -2.3em 14em;
+		margin: -2.3em 11.5em;
 	}
 
 nav ul ul li a:hover {

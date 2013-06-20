@@ -1,9 +1,26 @@
+
+
+@font-face {
+    font-family: 'DestroyRegular';
+    src: url('font/DESTROY_-webfont.eot');
+    src: url('font/DESTROY_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/DESTROY_-webfont.woff') format('woff'),
+         url('font/DESTROY_-webfont.ttf') format('truetype'),
+         url('font/DESTROY_-webfont.svg#DestroyRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 nav {
-	text-align: center;
-	font-family: Chalkduster;
-	src: url('Font/Chalkduster.tff');
-	margin: 0px 48px;
+	text-align: left;
+	font-family: 'DestroyRegular';
+	margin: 15em 5em;
 	font-size: 18px;
+	width: 15em;
+	height: 15em;
 }
 
 nav ul ul {
@@ -19,42 +36,46 @@ nav ul {
 	float:left;
 	list-style: none;
 	position: relative;
-	background-color: #C8F2F7;
+	background-color: gray opacity:0;
+
 }
 
-nav ul li {
-		float: left;
-	}
+
 	
 nav ul li:hover {
-	background: #1B4CE0;
+	background: black opacity:0;
 
 		}
 		
 nav ul li:hover a {			
-	color: #fff;
+	color: red;
 }
 		
 nav ul li a {
 		display: block; 
 		padding: 8px 10px;
 		margin: 0px 68px 0px 0px;
-		color: #1B4CE0; 
+		color: black; 
 		text-decoration: none;
+		transition-property: background-color, color;
+		transition-duration: 0.5s;
+		transition-timing-function: ease-out;
+		width: 13em;
 		}
 			
-		
 nav ul ul {
-		background: #1B4CE0; 
+		background: black opacity:0; 
 		border-radius: 0px; 
 		padding: 0;
-		position: relative; 
-		top: 100%;
+		position: absolute; 
+		margin: -2.3em 14em;
 	}
 
-
 nav ul ul li a:hover {
-	background: yellow;
-	color: red;
+	background: white opacity:0;
+	color: #06CC41;
+	transition-property: background-color, color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
 }
-			
+

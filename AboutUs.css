@@ -1,53 +1,105 @@
-#HeaderBox {
-	float:left;
-	width:500px;
-	margin:0 0.2em;
-	height: 170px;
+@font-face {
+    font-family: 'DestroyRegular';
+    src: url('font/DESTROY_-webfont.eot');
+    src: url('font/DESTROY_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/DESTROY_-webfont.woff') format('woff'),
+         url('font/DESTROY_-webfont.ttf') format('truetype'),
+         url('font/DESTROY_-webfont.svg#DestroyRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-#cart{
+#HeaderBox {
 	float:left;
-	margin: 0px 0px 20px 60px;
-	}
+	width: 35em;
+	margin:0 0.2em;
+	height:2em;
+}
+
+h1 {
+
+	text-align: center;
+	margin: 0.5em 3.2em;
+}
+
+a#SCart:hover {
+	color:#06CC41;
+	transition-property: background-color, color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+}
+
+#SCart {
+	text-decoration: none;
+	text-align: left;
+	margin: 0 6em 0 0;
+	font-size: 8px;
+	font-family: 'DestroyRegular';
+	color:red;
+}
 	
 header {
-	width:1100px;
+	width:70em;
+	height: 2em;
 	margin: 0 auto;
+	
+}
+
+body {
+	
+	background-color: black;
+	/*background-image:url('images/banner1.jpg');*/
+	background-repeat: no-repeat;
+	background-position: center 10em;
+	background-size: 60em;
+	font-family: 'DestroyRegular';
+	float:left;
+	width: 700px;
+	margin: 0em 0em;
+	color: white;
+	font-size: 14px;
 }
 
 #HeaderBox #search {
 	width:20em;
-	height: 5em;
-	margin: 5px 90px;
+	height: 20em;
+	margin: -2.5em 40em;
 	text-align: right;
 	}
 
 #search #searchBar{
 	float:right;
 	width: 20em;
-	margin: 0px 0px;
 	background-color:yellow;
+
 	}
 
 #submit {
-	background-color:#C2FFED;
+	font-family: 'DestroyRegular';
+	background-color: red;
+	font-size: 8px;
 	}
 
 #submit:hover{
-	background-color:#FFA473;
-	}	
-	
+	background-color:#06CC41;
+	transition-property: background-color, color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+	}
+
 	/*take everything above here*/ 
-
-body{
-	font-family: serif;
-	float:left;
-	width: 700px;
-	margin: 0 50px;
-	
-}
-
 
 #BodyText{
 	border: line;
+	margin: 11em 7em;
+	font-size: 12px;
+	width: 40em;
+}
+
+img#About{
+	width:18em;
+	height:25em;
+	margin: -33.5em 42.5em;
+	position:absolute;
 }
